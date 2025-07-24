@@ -20,7 +20,7 @@
             </div>
         </ul>
     </nav>
-    <section class="flex my-25 items-end "><div>
+    <section class="flex my-25 items-end"><div>
         <h3 class="text-6xl italic font-semibold "> ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h3>
         <p class="text-2xl text-[#6B7280]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
         </div>
@@ -31,10 +31,9 @@
         <section>
         <div class="justify-items-center">
             <h3 class="text-5xl italic font-semibold"> <span class="text-[#E95A08]">Our </span> Plants</h3>
-            <p class="text-2xl text-center w-230 text-[#6B7280] ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <p class="text-2xl text-center w-230 text-[#6B7280] m-6 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div> 
-        <div class="grid grid-cols-4
- gap-3">
+        <div class="grid grid-cols-4 gap-3">
             <div class=" w-70 text-center ">
                 <img class="my-10 mx-auto" src="assets/sample-flower-image.png" alt="">
             <div class=" text-2xl  m-5">
@@ -103,7 +102,7 @@
         </section>
         <section class="flex my-25">
             <img src="assets/flower-store.png" alt="">
-            <div class="mx-22">
+            <div class="mx-15 ">
                 <h3 class="font-bold text-6xl  ">Flower & Plants Lover</h3>
                 <div class="m-5 text-[#6B7280] w-125 text-2xl">
                 <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
@@ -114,56 +113,63 @@
         </section>
         <section class="justify-items-center">
             <h3 class="text-5xl italic font-semibold"><span class="text-[#E95A08]"> Latest </span> Deals</h3>
-        <p class="text-2xl text-center w-230 text-[#6B7280]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        <p class="text-2xl text-center w-230 text-[#6B7280] m-6">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
        </section>
-       <section class="grid grid-cols-2 my-20 text-center ">
-        <div class="bg-[url()] ">
-            <p>60% Off | Bloom Plant</p>
-            <a href="">Shop Now</a>
-        </div>
-        <div>
-            <p>25% Off | Zabo Plant </p>
-            <a href="">Shop Now</a>
-        </div>
-        <div>
-            <p>30% Off | Ana  Plant</p>
-            <a href="">Shop Now</a>
-        </div>
+       <section>
+          <div class="grid grid-cols-3 gap-4 w-310 h-80 ">
+  <div class="col-span-1 flex flex-col gap-4">
+    <div class="bg-cover bg-center text-white p-4 rounded-lg h-1/2 flex flex-col justify-end bg-[url('./assets/deal-bloom.png')] ">
+      <p class="text-2xl font-bold text-center">60% Off | Bloom Plant</p>
+      <button class="mt-2 text-lg underline">Shop Now</button>
+    </div>
+    <div class="bg-cover bg-center text-white p-4 rounded-lg h-1/2 flex flex-col justify-end bg-[url('./assets/deal-ana.png')]">
+      <p class="text-2xl font-bold text-center">30% Off | Ana Plant</p>
+      <button class="mt-2 text-lg underline">Shop Now</button>
+    </div>
+  </div>
+  <div class="col-span-2 bg-cover bg-center text-white p-6 rounded-lg flex flex-col justify-center items-center bg-[url('./assets/deal-zabo.png')] ">
+    <h2 class="text-3xl font-bold">25% Off | Zabo Plant</h2>
+    <button class="mt-2 text-lg underline">Shop Now</button>
+  </div>
+</div>
        </section>
-       <section class="justify-items-center m-25 ">
-        <div class="">
-            <h3 class="font-bold text-3xl text-">Join the colorful Bunch</h3>
-        </div>
-        <div class="m-10">
-            <input class=" px-22 border border-black-500" type="email" name="" id="" placeholder="Write email">
-            <button class="bg-[#E95A08] border font-semibold text-[#FFFFFF]" type="submit">Subscribe</button>
-        </div>
+       <section >
+         <div class="bg-cover bg-center text-white py-20 px-4 bg-[url('./assets/news-letter-bg.png')] m-10 w-300 h-75">
+  <div class="max-w-2xl mx-auto text-center space-y-6">
+    <h2 class="text-3xl md:text-4xl font-bold">
+      Join the colorful Bunch</h2>
+    <div class="grid grid-cols-3 bg-white rounded-md overflow-hidden">
+      <input type="email" placeholder="Write email"class="col-span-2 px-4 py-2 text-black outline-none" />
+      <button class="bg-orange-500 text-white font-semibold px-4 py-2 hover:bg-orange-600">Subscribe</button>
+    </div>
+  </div>
+</div>
        </section>
     </main>
-    <footer class="flex gap-27 text-[#6B7280]">
+    <footer class="flex text-[#6B7280] grid grid-cols-1 lg:grid-cols-4">
         <div >
             <img src="assets/logo.png" alt="">
             <p class="text w-60">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
         </div>
-        <div class="w-50 h-20 gy-5">
+        <div class="w-50 h-20  ">
             <ul>
-                <li>Home</li>
-                <li class="my-4">About Us</li>
-                <li>Blog</li>
-                <li class="my-4">FAQ</li>
-                <li>Contact Us</li>
+                <li class="m-4">Home</li>
+                <li class="m-4">About Us</li>
+                <li class="m-4">Blog</li>
+                <li class="m-4">FAQ</li>
+                <li class="m-4">Contact Us</li>
             </ul>
         </div>
         <div>
-            <ul>
-                <li>Features</li>
-                <li class="my-4">Pricing</li>
-                <li>Privacy Policy</li>
-                <li class="my-4">Terms of Service</li>
-                <li>Help Center</li>
+            <ul class="">
+                <li class="m-4">Features</li>
+                <li class="m-4">Pricing</li>
+                <li class="m-4">Privacy Policy</li>
+                <li class="m-4">Terms of Service</li>
+                <li class="m-4">Help Center</li>
             </ul>
         </div>
-        <div class="flex w-6 h-6 gap-3 mx-93 my-6">
+        <div class="flex w-6 h-6 gap-3 mx-35 my-6">
             <img src="assets/icon-linkedin.png" alt="">
             <img src="assets/icon-twitter.png" alt="">
             <img src="assets/icon-facebook.png" alt="">
