@@ -5,5 +5,9 @@
         font-family: "Winky Rough", sans-serif;
     }
 }
+@media screen and(max-width:576px){
+    .usd{
+      background-color: aqua;
+    }
+}
 @import"tailwind"
-
