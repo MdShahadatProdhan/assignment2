@@ -5,6 +5,9 @@
         font-family: "Winky Rough", sans-serif;
     }
 }
+.para{
+    text-shadow: 2px 2px 5px;
+}
 @media screen and (max-width: 576px) {
     body{
         padding: 5px;
@@ -18,6 +21,8 @@
         grid-template-columns: repeat(1, 1fr);
         flex-wrap: wrap;
         flex-direction: column-reverse;
+        margin: 25px;
+        
     }
     .nav{
         display: none;
@@ -31,6 +36,7 @@
     .our{
     width: 95%;
     font-size: 1rem;
+
     }
     .flower{
         flex-wrap: wrap;
