@@ -8,34 +8,34 @@
     <link rel="stylesheet" href="tailwind.into.css">
     <title>Assignment2</title>
 </head>
-<body class="m-5 mx-40 ">
+<body class="mx- m-10 my-4 ">
     <header>
     <nav class="flex justify-between items-center ">
         <img class="w-50 h-20" src="assets/logo.png" alt="">
         <ul class="flex gap-5 justify-between">
-            <li class="font-bold">Home</li>
-            <li class="text-[#6B7280]">Shop</li>
-            <li class="text-[#6B7280]">About Us</li>
+            <li class="font-bold nav ">Home</li>
+            <li class="text-[#6B7280] nav ">Shop</li>
+            <li class="text-[#6B7280] nav ">About Us</li>
             <div class="flex">
             <li><img class="w-7 h-7 " src="assets/cart.png" alt=""></li>
             <li>Cart ($56)</li>
             </div>
         </ul>
     </nav>
-    <section class="flex my-25 items-end"><div>
+    <section class="flex my-25 items-end always"><div>
         <h3 class=" font text-6xl italic font-semibold "> ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h3>
         <p class="text-2xl text-[#6B7280]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
         </div>
-        <img src="assets/hero-flower.png" alt="">
+        <img class="hero" src="assets/hero-flower.png" alt="">
     </section>
     </header>
     <main>
         <section>
-        <div class="justify-items-center">
+        <div class="justify-items-center ">
             <h3 class="text-5xl font font-semibold"> <span class=" text-[#E95A08]">Our </span> Plants</h3>
-            <p class="text-2xl text-center w-230 text-[#6B7280] m-6 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <p class="text-2xl our text-center w-230 text-[#6B7280] m-6 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div> 
-        <div class=" grid gap-3 usd grid-cols-4 ">
+        <div class=" grid gap-32 usd grid-cols-2 lg:grid-cols-4 ">
             <div class=" w-70 text-center ">
                 <img class="my-10 mx-auto" src="assets/sample-flower-image.png" alt="">
             <div class=" text-2xl  m-5">
@@ -103,9 +103,9 @@
         </div> 
         </section>
         <section class="flex my-25">
-    <div class="flex  md:flex-row border border-blue-400 p-4 relative">
+    <div class="flex flower  p-4 relative">
   <div class="absolute -top-25 left-1/2 transform -translate-x-1/2 z-10">
-    <img src="assets/trusted-badge.png" alt="" class="w-60 h-60 size-6  animate-pulse" />
+    <img src="assets/trusted-badge.png" alt="" class="w-60 h-60 size-6 trust animate-pulse" />
   </div>
   <div class="md:w-1/2 ">
     <img src="assets/flower-store.png" alt="" class="w-full h-full object-cover "/>
@@ -121,32 +121,32 @@
   </div>
 </div>
         </section>
-         <section class="justify-items-center">
+         <section class="justify-items-center ">
          <h3 class="text-5xl font font-semibold"><span class="text-[#E95A08]"> Latest </span> Deals</h3>
-        <p class="text-2xl text-center w-230 text-[#6B7280] m-6">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        <p class="text-2xl text-center w-230 text-[#6B7280] latest-description m-6">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
        </section>
        <section>
-          <div class="grid grid-cols-3 gap-4 w-310 h-80 ">
+          <div class=" grid-cols-3 gap-4 w-253 h-100 grid shop">
   <div class="col-span-1 flex flex-col gap-4">
-    <div class="bg-cover bg-center text-white p-4 rounded-lg h-1/2 flex flex-col justify-end bg-[url('./assets/deal-bloom.png')] ">
-      <p class="text-2xl font-bold text-center">60% Off | Bloom Plant</p>
+    <div class=" col-span- bg-cover bg-center text-white p-4 rounded-lg h-1/2 flex flex-col  justify-center items-center bg-[url('./assets/deal-bloom.png')] ">
+      <p class="text-2xl font-bold text-center ">60% Off | Bloom Plant</p>
       <button class="mt-2 text-lg underline">Shop Now</button>
     </div>
-    <div class="bg-cover bg-center text-white p-4 rounded-lg h-1/2 flex flex-col justify-end bg-[url('./assets/deal-ana.png')]">
+    <div class="bg-cover col-span- bg-center text-white p-4 rounded-lg h-1/2 flex flex-col  justify-center items-center bg-[url('./assets/deal-ana.png')]">
       <p class="text-2xl font-bold text-center">30% Off | Ana Plant</p>
       <button class="mt-2 text-lg underline">Shop Now</button>
     </div>
   </div>
-  <div class="col-span-2 bg-cover bg-center text-white p-6 rounded-lg flex flex-col justify-center items-center bg-[url('./assets/deal-zabo.png')] ">
+  <div class="shop w- col-span-2 bg-cover bg-right text-white p-6 rounded-lg flex flex-col justify-center items-center bg-[url('./assets/deal-zabo.png')] ">
     <h2 class="text-3xl font-bold">25% Off | Zabo Plant</h2>
     <button class="mt-2 text-lg underline">Shop Now</button>
   </div>
 </div>
        </section>
        <section >
-         <div class="bg-cover bg-center text-white py-20 px-4 bg-[url('./assets/news-letter-bg.png')] m-10 w-300 h-75">
-  <div class="max-w-2xl mx-auto text-center space-y-6">
-    <h2 class="text-3xl md:text-4xl font-bold">
+         <div class="join bg-cover bg-center text-white py-0 px-4 bg-[url('./assets/news-letter-bg.png')] mt-10 w-260px h-50">
+  <div class=" max-w-2xl m-auto  text-center space-y-6">
+    <h2 class=" text-3xl md:text-4xl font-bold ">
       Join the colorful Bunch</h2>
     <div class="grid grid-cols-3 bg-white rounded-md overflow-hidden">
       <input type="email" placeholder="Write email"class="col-span-2 px-4 py-2 text-black outline-none" />
@@ -156,10 +156,10 @@
 </div>
        </section>
     </main>
-    <footer class="text-[#6B7280] grid grid-cols-1 lg:grid-cols-4">
+  <footer class=" footer text-[#6B7280] grid over grid-cols-4">
         <div >
             <img src="assets/logo.png" alt="">
-            <p class="text w-60">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+            <p class="text w-60 m-4">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
         </div>
         <div class="w-50 h-20  ">
             <ul>
@@ -171,7 +171,7 @@
             </ul>
         </div>
         <div>
-            <ul class="">
+            <ul class="help">
                 <li class="m-4">Features</li>
                 <li class="m-4">Pricing</li>
                 <li class="m-4">Privacy Policy</li>
@@ -179,7 +179,7 @@
                 <li class="m-4">Help Center</li>
             </ul>
         </div>
-        <div class="flex w-6 h-6 gap-3 mx-35 my-6">
+        <div class=" flex w-6 h-6 gap-3 mx-4 lg:mx-35 my-6">
             <img src="assets/icon-linkedin.png" alt="">
             <img src="assets/icon-twitter.png" alt="">
             <img src="assets/icon-facebook.png" alt="">
