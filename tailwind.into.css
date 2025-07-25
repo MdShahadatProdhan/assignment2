@@ -22,10 +22,12 @@
         flex-wrap: wrap;
         flex-direction: column-reverse;
         margin: 25px;
-        
     }
     .nav{
         display: none;
+    }
+    .cart{
+        margin-right: 25px;
     }
     .hero{
         width:100%;
@@ -36,7 +38,10 @@
     .our{
     width: 95%;
     font-size: 1rem;
-
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
     .flower{
         flex-wrap: wrap;
@@ -50,15 +55,35 @@
 }
     .shop{
         grid-template-columns: repeat(1, 1fr);
-        width: 580px;
+        width: 560px;
+    }
+    .shop2{
+        width: 528px;
     }
     .join{
         width: 560px;
         margin-left: 0px;
     }
+    .home{
+      grid-template-columns: repeat(1, 1fr);
+      
+    }
+    .the{
+        text-wrap: none;
+        width: 300px;
+    }
     .footer{
         grid: none;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .fot{
+        margin-left: 15px;
+    }
+    .faq{
+        margin-left: 2px;
+    }
+    .icon{
+        margin-left: 10px;
     }
 }
 @import"tailwind"
